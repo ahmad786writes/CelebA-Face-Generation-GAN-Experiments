@@ -1,5 +1,3 @@
-# CelebA Face Generation GAN
-
 This project involves experiments with GANs (Generative Adversarial Networks) for generating high-quality face images based on the CelebA dataset. 
 
 ## Project Overview
@@ -28,7 +26,7 @@ This project involves experiments with GANs (Generative Adversarial Networks) fo
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/celeba-face-gan.git
+   git clone https://github.com/ahmad786writes/CelebA-Face-Generation-GAN-Experiments
    ```
 
 2. Install dependencies:
@@ -41,9 +39,34 @@ This project involves experiments with GANs (Generative Adversarial Networks) fo
    jupyter notebook "CelebA Face Generation GAN Experiments.ipynb"
    ```
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Describe your feature"
+   ```
+4. Push your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Submit a pull request explaining your changes.
+
 ## Acknowledgments
 
-- **Dataset**: CelebA dataset
+- **Dataset**: [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 - **Framework**: TensorFlow
-- **Inspiration**: State-of-the-art GAN models for image synthesis.
-
+- **Inspiration**:
+  - **GANs**: [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) by Ian Goodfellow et al.
+  - **DCGAN**: [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434) by Radford et al.
+  - **DRGAN**: [Representation Learning by Rotating Your Faces](https://arxiv.org/abs/1705.11136) by Tran et al.
