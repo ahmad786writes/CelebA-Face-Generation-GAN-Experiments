@@ -16,12 +16,12 @@ This project involves experiments with GANs (Generative Adversarial Networks) fo
 
 ## Architecture
 
-![Architecture Diagram](path/to/architecture_image.png)  
+![Architecture Diagram](images/architecture.png)  
 *Figure 1: GAN Architecture Overview*
 
 ## Results
 
-![Generated Images](path/to/result_image.png)  
+![Generated Images](images/results.gif)  
 *Figure 2: Sample Generated Face Images*
 
 ## How to Run
@@ -44,10 +44,6 @@ This project involves experiments with GANs (Generative Adversarial Networks) fo
 ## Acknowledgments
 
 - **Dataset**: CelebA dataset
-- **Framework**: TensorFlow / PyTorch
+- **Framework**: TensorFlow
 - **Inspiration**: State-of-the-art GAN models for image synthesis.
-
----
-
-Please replace the placeholders (`path/to/architecture_image.png` and `path/to/result_image.png`) with the actual paths to your images.
 
